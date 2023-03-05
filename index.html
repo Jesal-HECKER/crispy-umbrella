@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			background-color: #f3f3f3;
+			font-family:monospace;
+			font-size: 24px;
+			color: #444;
+		}
+		h1 {
+			text-align: center;
+			color: #F88379;
+			margin-top: 50px;
+		}
+		form {
+			background-color: #F88379;
+			border-radius: 5px;
+			padding: 20px;
+			margin: 0 auto;
+			max-width: 400px;
+			box-shadow: 0px 2px 5px rgba(0,1,0,0.3);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			border-radius: 3px;
+			border: 1px solid #ccc;
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #007bff;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 3px;
+			border: none;
+			font-size: 16px;
+			cursor: text-pointer;
+			transition: background-color 0.3s;
+		}
+		input[type="submit"]:hover {
+			background-color: #0062cc;
+		}
+		.hidden {
+			display: none;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+			margin-top: 20px;
+		}
+	</style>
+	<script>
+		function displayImage() {
+			var image = document.getElementById("image");
+			image.classList.remove("hidden");
+		}
+	</script>
+</head>
+<body>
+	<h1>Login</h1>
+	<form action="login.php" method="post"
+	function displayImage() {
+			document.getElementById("myImage").src = "world=web.jpg";
+		}
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<input type="submit" value="LOGIN">
+	</form>
+	<button onclick="displayImage(https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F81%2Fb5%2Ff0%2F81b5f08affce822c4f8e67f054667e5f.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Faesthetic-world-map-for-photo-boards--794181715544897203%2F&tbnid=lWcIfY2fQORRYM&vet=12ahUKEwjPmKCQ3Lz9AhV-k9gFHcNOD-cQMygCegUIARDmAQ..i&docid=6vQolTJALG_dTM&w=1200&h=790&q=aesthetic%20world%20map&ved=2ahUKEwjPmKCQ3Lz9AhV-k9gFHcNOD-cQMygCegUIARDmAQ)">
+</body>
+</html>
